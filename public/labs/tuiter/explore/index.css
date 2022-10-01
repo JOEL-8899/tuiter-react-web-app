@@ -60,6 +60,12 @@ body{
 .wd-author-date{
     margin-top: 20px;
 }
+.wd-news-boxes-extra{
+    margin-top: 40px;
+}
+.wd-bottom-extra{
+    margin-bottom: 150px;
+}
 .wd-news-icon{
     float: left;
     height: 25px;
@@ -75,6 +81,6 @@ body{
 }
 .wd-news-boxes{
     box-sizing: border-box;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
