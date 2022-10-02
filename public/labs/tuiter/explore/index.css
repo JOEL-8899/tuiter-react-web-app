@@ -7,7 +7,7 @@ body{
     border-radius: 50px;
     color: white;
     background-color: darkgray;
-    width: 87%;
+    width: 95%;
     padding-left: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -16,7 +16,7 @@ body{
 #id-gear{
     float: right;
     font-size: 35px;
-    margin-right: 125px;
+    margin-right: 12px;
     margin-top: -8px;
     color: rgb(29, 161, 242);
 }
@@ -30,6 +30,12 @@ body{
 .wd-topics-titles{
     margin-left: 35px;
 }
+.wd-light-gray-border{
+    border: lightgray;
+    border-style: solid;
+    border-width: 1px;
+    padding: 50px;
+}
 #id-for-you{
     color: rgb(29,161,242);
     border-bottom: solid;
@@ -40,9 +46,7 @@ body{
     color: rgb(110,118,125);
     margin-top: -10px;
 }
-.wd-topics{
-    margin-top: 20px;
-}
+
 .wd-titles{
     font-size: 15px;
     color: white;
@@ -50,37 +54,35 @@ body{
 }
 .wd-news-images{
     float: right;
-    position: relative;
     height: 100px;
     width: 100px;
     margin-right: 16px;
     border-radius: 15px;
-    margin-top: -30px;
+    margin-top: -50px;
 }
-.wd-author-date{
-    margin-top: 20px;
-}
-.wd-news-boxes-extra{
-    margin-top: 40px;
-}
-.wd-bottom-extra{
-    margin-bottom: 150px;
-}
+
+
+
 .wd-news-icon{
     float: left;
     height: 25px;
     width: 25px;
 }
-.wd-author-date{
-    display: inline;
-}
+
 .wd-author-title{
     font-size: 15px;
     color: white;
     margin-left: -2px;
 }
-.wd-news-boxes{
-    box-sizing: border-box;
-    margin-bottom: 100px;
+
+.wd-threedots{
+    float: right;
+    color: white;
+    font-size: 25px;
+    margin-top: -100px;
 }
+.wd-topics-covid{
+    color: darkgray;
+}
+
 
