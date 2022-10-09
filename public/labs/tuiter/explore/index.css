@@ -1,31 +1,23 @@
 body{
-    background-color: black;
+    background-color: white;
     border-left: 16px;
     border-color: rgb(47,51,54);
 }
 
+
 #id-search-tuiter{
     border-radius: 50px;
-    color: white;
-    background-color: darkgray;
-    width: 95%;
-    padding-left: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-right: 15px;
+    width: 90%;
+    border-width: 1px;
+    border-color: lightgray;
+    border-top-color: white;
 }
-#id-gear{
-    float: right;
-    font-size: 35px;
-    margin-right: 12px;
-    margin-top: -8px;
-    color: rgb(29, 161, 242);
-}
+
+
 
 .wd-search-icon{
     position: absolute;
-    margin-left: 5px;
-    margin-top: 3px;
+
 
 }
 .wd-hyperlinks > li{
@@ -43,11 +35,7 @@ body{
     border-width: 1px;
     padding: 50px;
 }
-#id-for-you{
-    color: rgb(29,161,242);
-    border-bottom: solid;
-    border-bottom-color: rgb(29,161,242);
-}
+
 .wd-topics, .wd-tuits{
     font-size: 13px;
     color: rgb(110,118,125);
@@ -59,6 +47,13 @@ body{
     color: white;
     margin-top: -10px;
 }
+.wd-settings-icon{
+    font-size: x-large;
+}
+
+.wd-reduce-margin-top{
+    margin-top: -10px;
+}
 .wd-news-images{
     float: right;
     height: 100px;
@@ -68,7 +63,20 @@ body{
     margin-top: -50px;
 }
 
+.wd-img-icon{
+    height: 75px;
+    width: 75px;
+    border-radius: 10px;
+    margin-right: 0;
+}
+.wd-img-labels{
+    margin-top: -50px;
+    margin-left: 10px;
+}
 
+.wd-top-margin-reduce{
+    /*margin-top: -10px;*/
+}
 
 .wd-news-icon{
     float: left;
@@ -88,8 +96,33 @@ body{
     font-size: 25px;
     margin-top: -100px;
 }
+.wd-tech-list{
+    justify-content: space-between;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+    padding: 10px;
+}
 .wd-topics-covid{
     color: darkgray;
 }
+.rounded-pill{
+    height: 35px;
 
+}
+.wd-company-name{
+    margin-bottom: -5px;
+}
+
+
+.wd-who-to-follow{
+    list-style: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    padding:0px;
+}
+.wd-navigation-bar{
+    margin-top: 10px;
+}
 
