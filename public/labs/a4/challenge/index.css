@@ -1,0 +1,229 @@
+body{
+    background-color: black;
+    color: white;
+    border-left: 16px;
+    border-color: rgb(47,51,54);
+}
+
+
+#id-search-tuiter{
+    border-radius: 50px;
+    width: 90%;
+    border-width: 1px;
+    border-color: lightgray;
+    border-top-color: white;
+    background-color: rgba(238,238,238,.1);
+    color: lightgray;
+
+}
+
+::placeholder{
+    color: lightgray;
+}
+
+.wd-search-icon{
+    position: absolute;
+    color: lightgray;
+    margin-left: -1px;
+
+}
+.wd-hyperlinks > li{
+    display: inline-block;
+    color: rgb(110,118,125);
+    margin-right: 16px;
+    font-size: 15px;
+}
+
+.wd-topics-titles{
+    margin-left: 35px;
+}
+
+.wd-light-gray-border{
+    border: lightgray;
+    border-style: solid;
+    border-width: 1px;
+    padding: 50px;
+}
+
+.wd-topics, .wd-tuits{
+    font-size: 13px;
+    color: rgb(110,118,125);
+    margin-top: -10px;
+}
+
+.wd-titles{
+    font-size: 15px;
+    color: white;
+    margin-top: -10px;
+}
+.wd-settings-icon{
+    font-size: x-large;
+    margin-left: 20px;
+    color: white;
+
+}
+
+.wd-reduce-margin-top{
+    margin-top: -10px;
+}
+
+.wd-bts-img{
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    border-bottom: none;
+    padding: 1px;
+}
+
+.d-flex{
+    align-items: center;
+}
+.wd-news-images{
+    float: right;
+    height: 100px;
+    width: 100px;
+    margin-right: 16px;
+    border-radius: 15px;
+    margin-top: -50px;
+}
+
+.wd-img-icon{
+    height: 75px;
+    width: 75px;
+    border-radius: 10px;
+    margin-right: 0;
+}
+.wd-img-labels{
+    margin-top: -50px;
+    margin-left: 10px;
+}
+
+.wd-top-margin-reduce{
+    /*margin-top: -10px;*/
+}
+
+.wd-news-icon{
+    float: left;
+    height: 25px;
+    width: 25px;
+}
+
+.wd-author-title{
+    font-size: 15px;
+    color: white;
+    margin-left: -2px;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wd-threedots{
+    float: right;
+    color: white;
+    font-size: 25px;
+    margin-top: -100px;
+}
+.wd-tech-list{
+    justify-content: space-between;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 1px;
+    padding: 10px;
+}
+
+.wd-tech-list-first{
+    margin-top: -8px;
+}
+.wd-follow-btn{
+    background-color:white;
+    color: black;
+    font-weight: bold;
+    border-style: none;
+    width: 65px;
+}
+.wd-tweet-btn{
+    background-color: #0d6efd;
+    color: white;
+    border-style: none;
+}
+.wd-tech-list-last{
+    margin-bottom: 15px;
+}
+.wd-topics-covid{
+    color: darkgray;
+}
+.rounded-pill{
+    height: 35px;
+}
+
+.wd-light-grey-text{
+    color: darkgray;
+}
+.wd-company-name{
+    margin-bottom: -5px;
+}
+
+.wd-round-img{
+    border-radius: 24px;
+}
+
+.wd-who-to-follow{
+    list-style: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    padding:0px;
+}
+.wd-navigation-bar{
+    margin-top: 10px;
+
+}
+
+.nav-tabs{
+    justify-content: space-between;
+}
+
+.list-group-item{
+    background-color: black;
+    color: white;
+}
+
+.wd-show-more{
+    text-decoration: none;
+    font-style: normal;
+}
+
+.nav-link,.wd-threedots{
+    color: darkgray;
+}
+
+.wd-white-img-label{
+    color: white;
+}
+
+.fa-globe{
+    color: orange;
+}
+
+.wd-extra-links{
+    color: darkgray;
+    text-decoration:none;
+}
+
+.wd-who-to-follow-box{
+    background-color: rgba(238,238,238,.1);
+
+}
+
+
+.wd-light-gray{
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    border-bottom: none;
+    padding-top: 1px;
+    border-top: none;
+}
