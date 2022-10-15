@@ -12,13 +12,16 @@ body{
     border-bottom-left-radius: 25px;
     border-top-left-radius: 25px;
     background-color: white;
-    border-right: none;
+    border: solid;
+    border-color: lightgray;
+    border-right:none;
 }
 
 .wd-search-field{
    border-bottom-right-radius: 25px;
    border-top-right-radius: 25px;
-   border-top-color: white;
+    border: solid;
+    border-color: lightgray;
     border-left:none;
 }
 
