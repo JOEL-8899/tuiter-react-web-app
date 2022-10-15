@@ -5,19 +5,26 @@ body{
 }
 
 
-#id-search-tuiter{
-    border-radius: 50px;
-    width: 90%;
-    border-width: 1px;
-    border-color: lightgray;
-    border-top-color: white;
-}
 
 
 
 .wd-search-icon{
-    position: absolute;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: white;
+    border-right: none;
+}
 
+.wd-search-field{
+   border-bottom-right-radius: 25px;
+   border-top-right-radius: 25px;
+   border-top-color: white;
+    border-left:none;
+}
+
+.wd-settings-icon{
+    color: #0d6efd;
+    font-size: x-large;
 }
 .wd-hyperlinks > li{
     display: inline-block;
@@ -48,9 +55,7 @@ body{
     color: white;
     margin-top: -10px;
 }
-.wd-settings-icon{
-    font-size: x-large;
-}
+
 
 .wd-reduce-margin-top{
     margin-top: -10px;
@@ -159,5 +164,9 @@ body{
 }
 .wd-navigation-bar{
     margin-top: 10px;
+}
+
+.wd-search-group{
+    width: 100%;
 }
 
