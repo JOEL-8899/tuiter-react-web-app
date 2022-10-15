@@ -6,26 +6,33 @@ body{
 }
 
 
-#id-search-tuiter{
-    border-radius: 50px;
-    width: 90%;
-    border-width: 1px;
-    border-color: lightgray;
-    border-top-color: white;
-    background-color: rgba(238,238,238,.1);
-    color: lightgray;
-
-}
 
 ::placeholder{
     color: lightgray;
 }
 
 .wd-search-icon{
-    position: absolute;
-    color: lightgray;
-    margin-left: -1px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border: none;
+    background-color: rgba(238,238,238,.2);
+    color: darkgray;
 
+}
+
+.wd-search-field{
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+
+    border:none;
+    background-color: rgba(238,238,238,.2);
+    color: darkgray;
+}
+
+.wd-settings-icon{
+    background-color: transparent;
+    font-size: x-large;
+    color: white;
 }
 .wd-hyperlinks > li{
     display: inline-block;
@@ -56,12 +63,7 @@ body{
     color: white;
     margin-top: -10px;
 }
-.wd-settings-icon{
-    font-size: x-large;
-    margin-left: 20px;
-    color: white;
 
-}
 
 .wd-reduce-margin-top{
     margin-top: -10px;
