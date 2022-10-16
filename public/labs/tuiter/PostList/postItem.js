@@ -3,9 +3,11 @@ const PostItem = (item) => {
     <div class="wd-bookmark-details">
         <img src="${item.avatarIcon}" class="wd-profile-pic"/>
     <div class="wd-bookmarks-username-dots">
+    <div class="wd-bookmark-top" style="display: flex">
         <h3> ${item.userName} <span class="wd-user-id-span">@${item.handle}<span class="text-muted">
          - </span>${item.time}</span></h3>
-        <p class="wd-threedots wd-threedots-inside">...</p>
+                 </div>
+        <span class="wd-threedots">...</span>
         <p class="wd-details-bookmark">${item.postHead}</p>
         <div class="wd-bookmark-image-details">
             <img src="${item.image}" class="wd-bookmark-images"/>           

@@ -217,10 +217,8 @@ body{
 
 
 .wd-threedots{
-    float: right;
-    color: white;
-    font-size: 25px;
-    margin-top: -100px;
+    color: lightgrey;
+
 }
 .wd-tech-list{
     justify-content: space-between;
