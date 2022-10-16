@@ -1,5 +1,113 @@
 body{
     background-color: black;
+    border-color: rgb(47,51,54);
+
+}
+.wd-bookmark-title{
+    font-size: 20px;
+    color: white;
+    margin-top: 12px;
+    margin-left: 16px;
+}
+.wd-bookmark-user{
+    font-size: 13px;
+    color: darkgray;
+    margin-top: 12px;
+    margin-left: 16px;
+}
+.wd-bookmark-head{
+    padding: 12px;
+}
+.wd-threedots{
+    float: right;
+    color: white;
+    font-size: 25px;
+    display: inline-block;
+    margin-top: -70px;
+    color: rgb(29,161,242);
+}
+.wd-threedots-inside{
+    color: white;
+}
+
+.wd-bookmark-details{
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-right: 12px;
+}
+
+.wd-profile-pic{
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+    border-radius: 24px;
+    display: inline-block;
+    float: left;
+}
+.wd-bookmarks-username-dots{
+    color: white;
+    font-size: 15px;
+}
+.wd-user-id-span{
+    color: lightgray;
+    font-size: 15px;
+}
+
+.wd-bookmark-images{
+    border-radius: 15px;
+    width: 504px;
+    height: 264px;
+}
+.wd-details-bookmark{
+    width: 506px;
+    display: inline-block;
+    margin-left: 60px;
+    margin-bottom: 12px;
+}
+.wd-bookmark-image-details{
+    width: 506px;
+    margin-left: 60px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.wd-bookmark-image-description{
+    font-size: 15px;
+    margin-top: 12px;
+    padding:12px;
+    color: lightgray;
+}
+.wd-image-desc-title{
+    color: white;
+    font-weight: bold;
+}
+.wd-icons{
+    margin-left: 60px;
+    width: 506px;
+    display: flex;
+    justify-content: space-between;
+}
+.wd-icons > a{
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+}
+
+
+.wd-bottom-border{
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+
+body{
+    background-color: black;
     border-left: 16px;
     border-color: rgb(47,51,54);
 }
@@ -17,7 +125,7 @@ body{
 }
 
 .wd-search-field{
-   border-bottom-right-radius: 25px;
+    border-bottom-right-radius: 25px;
     border-top-right-radius: 25px;
     border-left:none;
     border-color: white;
