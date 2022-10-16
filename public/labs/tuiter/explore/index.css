@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: black;
     border-left: 16px;
     border-color: rgb(47,51,54);
 }
@@ -12,21 +12,20 @@ body{
     border-bottom-left-radius: 25px;
     border-top-left-radius: 25px;
     background-color: white;
-    border: solid;
     border-color: lightgray;
     border-right:none;
 }
 
 .wd-search-field{
    border-bottom-right-radius: 25px;
-   border-top-right-radius: 25px;
-    border: solid;
-    border-color: lightgray;
+    border-top-right-radius: 25px;
     border-left:none;
+    border-color: white;
+
 }
 
 .wd-settings-icon{
-    color: #0d6efd;
+    color:rgb(29,161,242);
     font-size: x-large;
 }
 .wd-hyperlinks > li{
@@ -117,23 +116,24 @@ body{
 }
 .wd-tech-list{
     justify-content: space-between;
-    border-style: solid;
-    border-color: darkgray;
-    border-width: 1px;
     padding: 10px;
+    color: white;
+    background-color: rgba(238,238,238,.1);
+
 }
 
 .wd-tech-list-first{
-    margin-top: -8px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 .wd-follow-btn{
-    background-color: #0d6efd;
+    background-color: rgb(29,161,242);
     color: white;
     border-style: none;
     width: 65px;
 }
 .wd-tweet-btn{
-    background-color: #0d6efd;
+    background-color: rgb(29,161,242);
     color: white;
     border-style: none;
 }
@@ -173,3 +173,24 @@ body{
     width: 100%;
 }
 
+.nav-link{
+    color: white;
+}
+.wd-navigation-bar > .nav-tabs > .nav-item > .active {
+    background-color: rgb(29,161,242);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.list-group-item{
+    background-color: rgba(238,238,238,.1);
+    color: white;
+}
+.wd-react-icon{
+    background-color: white;
+}
+
+.row > .wd-first-column > .wd-first-column-items > .active{
+    background-color: rgb(29,161,242);
+}
