@@ -20,14 +20,14 @@ body{
 }
 .wd-threedots{
     float: right;
-    color: white;
+    color: darkgray;
     font-size: 25px;
     display: inline-block;
     margin-top: -70px;
     color: rgb(29,161,242);
 }
 .wd-threedots-inside{
-    color: white;
+    color: darkgray;
 }
 
 .wd-bookmark-details{
@@ -69,7 +69,7 @@ body{
     margin-left: 60px;
     border-style: solid;
     border-width: 1px;
-    border-color: lightgray;
+    border-color: darkgray;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 15px;
@@ -80,25 +80,28 @@ body{
     font-size: 15px;
     margin-top: 12px;
     padding:12px;
-    color: lightgray;
+    color: darkgray;
 }
 .wd-image-desc-title{
     color: white;
     font-weight: bold;
 }
 .wd-icons{
-    margin-left: 60px;
-    width: 506px;
     display: flex;
     justify-content: space-between;
+    width: 400px;
+    margin-left: 90px;
+    color: darkgray;
 }
 .wd-icons > a{
-    color: white;
+    color: darkgray;
     text-decoration: none;
     margin: 12px;
 }
 
-
+.wd-icon-item, .wd-count{
+    color: darkgray;
+}
 .wd-bottom-border{
     border-bottom: 1px;
     border-style: solid;
@@ -217,7 +220,7 @@ body{
 
 
 .wd-threedots{
-    color: lightgrey;
+    color: darkgray;
 
 }
 .wd-tech-list{

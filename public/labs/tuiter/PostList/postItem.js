@@ -14,6 +14,30 @@ const PostItem = (item) => {
             <p class="wd-bookmark-image-description"><span class="wd-image-desc-title">${item.title ? item.title : ""}</span>
                 <br/>${item.description ? item.description : ""}</p>
         </div>
+        <div class="wd-icons">
+        <a href="#" >
+        <span class="wd-comment wd-icon-item">&#x1F4AC;</span>
+        <span class="wd-count" >
+                    ${item.comments}
+                </span></a>
+               
+                <a href="#" >
+        <span class="wd-retweet wd-icon-item">&#x21C5;</span>
+        <span class="wd-count">
+                    ${item.retweets}
+                </span></a>
+                
+                <a href="#" >
+        <span class="wd-likes wd-icon-item">&#x2665</span>
+        <span class="wd-count">
+                    ${item.likes}
+                </span></a>
+                
+                 <a href="#">
+        <span class="wd-share wd-icon-item">&#x21EC;</span>
+      </a>
+        
+     </div>
         <hr/>
       </div>
 
