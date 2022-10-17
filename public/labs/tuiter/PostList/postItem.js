@@ -7,7 +7,7 @@ const PostItem = (item) => {
         <h3> ${item.userName} <span class="wd-user-id-span">@${item.handle}<span class="text-muted">
          - </span>${item.time}</span></h3>
                  </div>
-        <span class="wd-threedots">...</span>
+        <span class="wd-threedots pt-1">...</span>
         <p class="wd-details-bookmark">${item.postHead}</p>
         <div class="wd-bookmark-image-details d-block">
             <img src="${item.image}" class="wd-bookmark-images"/>           
