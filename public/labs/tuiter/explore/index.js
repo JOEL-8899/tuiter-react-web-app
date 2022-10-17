@@ -17,15 +17,6 @@ function exploreComponent() {
     </div>
   `);
 }
-const handleEventTarget = (event) => {
-    const target = event.target;
-    console.log(target);
-    // $(target)
-    //     .css('background-color', 'blue')
-    //     .css('color', 'white');
-}
-const eventTarget = $(".list-group-item");
-eventTarget.click(handleEventTarget);
 
 
 $(exploreComponent);
