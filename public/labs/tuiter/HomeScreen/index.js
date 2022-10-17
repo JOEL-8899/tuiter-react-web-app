@@ -8,7 +8,7 @@ function exploreComponent() {
         <div class="col-2 col-xl-2 wd-first-column">
         ${NavigationSidebar("home")}
       </div>
-      <div class="col-10 col-lg-7 col-xl-6 wd-tech-list-last pe-6 ps-1">
+      <div class="col-10 col-lg-7 col-xl-6 wd-tech-list-last pe-7">
         ${PostList()}
       </div>
         <div class="d-none col-lg-4 col-xl-4 d-lg-block" >
