@@ -1,6 +1,6 @@
 const PostItem = (item) => {
     return (`
-    <div class="wd-bookmark-details me-3 mt-0">
+    <div class="wd-bookmark-details">
         <img src="${item.avatarIcon}" class="wd-profile-pic"/>
     <div class="wd-bookmarks-username-dots">
     <div class="wd-bookmark-top" style="display: flex">
