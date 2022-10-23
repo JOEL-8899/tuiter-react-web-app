@@ -11,7 +11,6 @@ const ExploreComponent = () => {
                     <span class="wd-settings-icon"><i class="fa fa-cog ps-3 pe-3"></i></span>
                 </a>
             </div>
-            
         <div class="wd-navigation-bar">
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
