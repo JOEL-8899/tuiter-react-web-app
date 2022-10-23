@@ -18,6 +18,7 @@ const PostSummaryItem = (
                     <div className="fw-bolder">{post.topic}</div>
                     <div>{post.title}</div>
                 </div>
+
                 <div className="col-2">
                     <img width={70} className="float-end rounded-3" src={require(`./images/${post.image}`)}/>
                 </div>
