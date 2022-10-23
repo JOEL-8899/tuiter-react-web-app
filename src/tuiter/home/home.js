@@ -1,8 +1,8 @@
-
+import PostList from "./PostList/index.js";
 const HomeComponent = ()=>{
     return(
         <div>
-            Home Component
+            <PostList/>
         </div>
     );
 }
