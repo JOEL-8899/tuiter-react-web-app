@@ -1,26 +1,32 @@
- [
+[
     {
-        "userName": "Elon Musk",
-        "handle": "elonmusk",
-        "avatarIcon": "../explore/elon-musk.jpg",
+        "_id": 123,
+        "userName": "SpaceX",
+        "handle": "spacex",
+        "avatarIcon": "https://tinyurl.com/4rb8jnez",
         "time": "23h",
-        "postHead": "Amazing show about <a href=\"#\">@Inspiration4x</a> mission!",
-        "title": "Countdown: Inspiration4 mission to space | Netflix Official Site",
+        "postHead": "Amazing show about  mission!We've cooked up some examples of how you could use the “check” icon in your projects",
+        "title": "Countdown: Inspiration4 mission to space | Netflix Official Site ",
         "description": "From training to launch to landing, this all-access docuseries rides along with the inpiration4 on the first all-civillian orbital space...",
-        "image": "../explore/astronaut.jpg",
+        "image": "https://tinyurl.com/ycyvyx2u",
         "comments": "4.2K",
         "retweets": "3.5K",
-        "likes": "37.5K"
+        "likes": "37.5K",
+        "repost": "40K"
     },
     {
-        "userName": "New York Post",
-        "handle": "nypost",
-        "avatarIcon": "../explore/new-york-post.webp",
-        "time": "23h",
-        "postHead": "Grime seen reading Karl Marx following split with world's richest man Elon Musk <a href=\"#\">tribe.al/nx2Gfaq</a>",
-        "image": "../explore/book-read.webp",
-        "comments": "965",
-        "retweets": "2.4K",
-        "likes": "4K"
+        "_id": 345,
+        "userName": "Elon Musk",
+        "handle": "elonmusk",
+        "avatarIcon": "https://tinyurl.com/3juxdh9r",
+        "time": "20h",
+        "postHead": "On than road I saw a pale man!We've cooked up some examples of how you could use the “check” icon in your projects",
+        "title": "Go Make Something Awesome",
+        "description": "On March 3, 1969 the United States Navy established an elite school for the top one percent of its pilots. Its purpose was to teach the lost art or aerial combat and to insure that the handful of men who graduated were the best fighter pilots in the world.”",
+        "image": "https://tinyurl.com/4rkfkhve",
+        "comments": "5.2K",
+        "retweets": "5K",
+        "likes": "3K",
+        "repost": "4K"
     }
 ]

@@ -35,13 +35,10 @@ const PostItem = (item) => {
                 
                  <a href="#">
         <span class="wd-share wd-icon-item">&#x21EC;</span>
-      </a>
-        
+      </a>       
      </div>
         <hr/>
       </div>
-
-
 </div>
   `);
 }
