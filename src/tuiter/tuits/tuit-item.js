@@ -1,24 +1,24 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const PostItem = ({
-    post =
-        {
-            "_id": 123,
-            "userName": "NASA",
-            "handle": "elonmusk",
-            "avatarIcon": "nasa-logo.png",
-            "time": "23h",
-            "tuit": "Amazing show about a mission!",
-            "title": "Countdown: Inspiration4 mission to space | Netflix Official Site",
-            "description": "From training to launch to landing, this all-access docuseries rides along with the inpiration4 on the first all-civillian orbital space...",
-            "image": "../explore/astronaut.jpg",
-            "replies": 4.2,
-            "retweets": 3.5,
-            "likes": 37.5,
-            "liked" : true,
-            "repost":"40K"
-        }
+const TuitItem = ({
+                      post =
+                          {
+                              "_id": 123,
+                              "userName": "NASA",
+                              "handle": "elonmusk",
+                              "avatarIcon": "nasa-logo.png",
+                              "time": "23h",
+                              "tuit": "Amazing show about a mission!",
+                              "title": "Countdown: Inspiration4 mission to space | Netflix Official Site",
+                              "description": "From training to launch to landing, this all-access docuseries rides along with the inpiration4 on the first all-civillian orbital space...",
+                              "image": "../explore/astronaut.jpg",
+                              "replies": 4.2,
+                              "retweets": 3.5,
+                              "likes": 37.5,
+                              "liked" : true,
+                              "repost":"40K"
+                          }
                   }) => {
     return (
         <li className="list-group-item">
@@ -51,7 +51,7 @@ const PostItem = ({
                     {post.likes}
                 </span></a>
                         <a href="#">
-                            <span className="wd-share wd-icon-item" >&#x21EC;</span>
+                            <span className="wd-share wd-icon-item">&#x21EC;</span>
                             <span className="wd-count">{post.repost}</span>
                         </a>
                     </div>
@@ -60,6 +60,6 @@ const PostItem = ({
             </div>
 
         </li>
-  );
+    );
 }
-export default PostItem;
+export default TuitItem;

@@ -1,7 +1,7 @@
 import PostList from "./PostList/index.js";
 const HomeComponent = ()=>{
     return(
-        <div>
+        <div className="wd-post-summary">
             <PostList/>
         </div>
     );
