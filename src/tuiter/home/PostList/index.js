@@ -3,7 +3,7 @@ import PostItem from "./postItem.js";
 import "./index.css"
 import {useSelector} from "react-redux";
 const PostList = () => {
-    const posts = useSelector(state => state.posts);
+    const posts = useSelector(state => state.tuits);
     return (
     <div>
         <ul>

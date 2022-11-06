@@ -1,5 +1,5 @@
 import {createSlice} from "@reduxjs/toolkit";
-import initialPostList from "../home/PostList/post.json"
+import initialPostList from "../tuits/tuits.json"
 const postSlice = createSlice({
     name : "post",
     initialState : initialPostList

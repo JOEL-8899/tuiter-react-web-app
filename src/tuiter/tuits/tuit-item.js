@@ -1,5 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {useDispatch} from "react-redux";
+import {deleteTuit} from "./tuits-reducer";
+
 
 const TuitItem = ({
                       post =
@@ -7,7 +10,7 @@ const TuitItem = ({
                               "_id": 123,
                               "userName": "NASA",
                               "handle": "elonmusk",
-                              "avatarIcon": "nasa-logo.png",
+                              "avatarIcon": "https://tinyurl.com/5n8nzvrm",
                               "time": "23h",
                               "tuit": "Amazing show about a mission!",
                               "title": "Countdown: Inspiration4 mission to space | Netflix Official Site",
@@ -20,17 +23,22 @@ const TuitItem = ({
                               "repost":"40K"
                           }
                   }) => {
+    const dispatch = useDispatch();
+    const deleteTuitHandler = (id) => {
+        dispatch(deleteTuit(id));
+    }
     return (
         <li className="list-group-item">
             <div className="wd-bookmark-details">
-                <img src={`${post.avatarIcon}`} className="wd-profile-pic"/>
+                <img src={`${post.image}`} className="wd-profile-pic"/>
                 <div className="wd-bookmarks-username-dots">
                     <div className="wd-bookmark-top d-flex">
-                        <h3> {post.userName} <span className="wd-check-icon me-1"><i className="fa fa-check-circle"></i></span><span className="wd-user-id-span">@{post.handle}<span
+                        <h3> {post.userName} <span className="wd-check-icon me-1"><i className="fa fa-check-circle"></i></span><span className="wd-user-id-span">{post.handle}<span
                             className="text-muted">
          - </span>{post.time}</span></h3>
                     </div>
-                    <span className="wd-threedots pt-1">...</span>
+                    <span className="wd-threedots pt-1"><i className="fa fa-times"
+                                                           onClick={() => deleteTuitHandler(post._id)}></i></span>
                     <p className="wd-details-bookmark">{post.tuit}</p>
                     <div className="wd-icons">
                         <a href="#">

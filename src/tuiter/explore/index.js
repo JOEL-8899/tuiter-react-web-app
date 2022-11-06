@@ -23,7 +23,7 @@ const ExploreComponent = () => {
                 <li className="nav-item">
                     <a className="nav-link">Trending</a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item">`
                     <a className="nav-link">News</a>
                 </li>
             </ul>
