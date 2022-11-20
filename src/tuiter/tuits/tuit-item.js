@@ -1,9 +1,7 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "./tuits-reducer";
-
-
+import {deleteTuitThunk, updateTuitThunk} from "../../services/tuits-thunks.js";
+import "./index.css"
 const TuitItem = ({
                       post =
                           {
@@ -25,9 +23,16 @@ const TuitItem = ({
                   }) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
+
+    const incLikeTuitHandler = (post) => {
+        dispatch(updateTuitThunk({...post, likes : post.likes+1}));
+    }
+
+
     return (
+
         <li className="list-group-item">
             <div className="wd-bookmark-details">
                 <img src={`${post.image}`} className="wd-profile-pic"/>
@@ -53,7 +58,7 @@ const TuitItem = ({
                     {post.retweets}
                 </span></a>
 
-                        <a href="#">
+                        <a href="#" onClick={()=> incLikeTuitHandler(post)}>
                             <span className="wd-likes wd-icon-item">&#x2665;</span>
                             <span className="wd-count">
                     {post.likes}
