@@ -38,7 +38,6 @@ const tuitsReducer = createSlice(
                 (state, {payload}) => {
                     state.loading = false
                     state.tuits.push(payload)
-                    state.tuits.map(t =>{console.log(t._id)})
                 },
 
             [updateTuitThunk.fulfilled]:

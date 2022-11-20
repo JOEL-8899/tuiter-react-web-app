@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import {useDispatch} from "react-redux";
 import {createTuitThunk} from "../../services/tuits-thunks.js";
-// import {createTuit} from "../tuits/tuits-reducer";
 
 const WhatsHappening = () => {
     let [whatsHappening, setWhatsHappening] = useState('');
