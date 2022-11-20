@@ -18,6 +18,8 @@ const TuitItem = ({
                               "retweets": 3.5,
                               "likes": 37.5,
                               "liked" : true,
+                              "disliked" :false,
+                              "dislikes" :88,
                               "repost":"40K"
                           }
                   }) => {
@@ -26,8 +28,13 @@ const TuitItem = ({
         dispatch(deleteTuitThunk(id));
     }
 
-    const incLikeTuitHandler = (post) => {
-        dispatch(updateTuitThunk({...post, likes : post.likes+1}));
+    const likeTuitHandler = (post) => {
+            document.getElementById("wd-likeBtn").style.color = "red";
+            dispatch(updateTuitThunk({...post, likes : post.likes+1, liked : true}));
+    }
+    const disLikeTuitHandler = (post) => {
+        dispatch(updateTuitThunk({...post, dislikes : post.dislikes+1, disliked : true}));
+
     }
 
 
@@ -57,18 +64,22 @@ const TuitItem = ({
                             <span className="wd-count">
                     {post.retuits}
                 </span></a>
-
-                        <a href="#" onClick={()=> incLikeTuitHandler(post)}>
-                            <span className="wd-likes wd-icon-item">&#x2665;</span>
+                        <a href="#" onClick={()=> likeTuitHandler(post)}>
+                            <span className="wd-likes wd-icon-item text-danger" id={"wd-likeBtn"}>&#x2665;</span>
                             <span className="wd-count">
                     {post.likes}
+                </span></a>
+                        <a href="#" onClick={()=> disLikeTuitHandler(post)}>
+                            <span className="wd-likes wd-icon-item" id={"wd-disLike"}>
+                                <i className="fa  fa-thumbs-down me-1"></i></span>
+                            <span className="wd-count">
+                    {post.dislikes}
                 </span></a>
                         <a href="#">
                             <span className="wd-share wd-icon-item">&#x21EC;</span>
                             <span className="wd-count">{post.repost}</span>
                         </a>
                     </div>
-                    <hr/>
                 </div>
             </div>
 

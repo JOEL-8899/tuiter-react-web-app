@@ -12,7 +12,6 @@ const TuitList = () =>{
     },[])
     return(
         <>
-            <h2>Tuit list</h2>
             <ul className="list-group">
                 {
                     loading &&

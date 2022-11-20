@@ -91,10 +91,8 @@ body{
     justify-content: space-between;
     width: 400px;
     margin-left: 90px;
-    color: darkgray;
 }
 .wd-icons > a{
-    color: darkgray;
     text-decoration: none;
     margin: 12px;
 }

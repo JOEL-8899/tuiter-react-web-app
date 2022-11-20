@@ -1,5 +1,5 @@
 import React from "react";
-import PostSummaryList from "../post-summary-list";
+import PostSummaryList from "../post-summary-list/index.js";
 import "./index.css";
 const ExploreComponent = () => {
     return(
@@ -23,7 +23,7 @@ const ExploreComponent = () => {
                 <li className="nav-item">
                     <a className="nav-link">Trending</a>
                 </li>
-                <li className="nav-item">`
+                <li className="nav-item">
                     <a className="nav-link">News</a>
                 </li>
             </ul>

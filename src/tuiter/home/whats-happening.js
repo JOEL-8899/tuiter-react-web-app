@@ -12,7 +12,7 @@ const WhatsHappening = () => {
         dispatch(createTuitThunk(newTuit));
     }
     return (
-        <div className="row">
+        <div className="row mt-3">
             <div className="col-auto">
                 <img src="https://tinyurl.com/4wvmy5ua" width={60}/>
             </div>
