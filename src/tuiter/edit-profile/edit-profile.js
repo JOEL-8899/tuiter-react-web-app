@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import {Link} from "react-router-dom";
 import "./editProfile.css"
 import {useDispatch, useSelector} from "react-redux";
-import {deleteTuit} from "../tuits/tuits-reducer";
 import {updateProfile} from "../profile/profile-reducer";
 const EditProfile = () =>{
     const profile = useSelector(state => state.profile);
