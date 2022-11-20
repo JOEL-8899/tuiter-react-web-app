@@ -55,7 +55,7 @@ const TuitItem = ({
                         <a href="#">
                             <span className="wd-retweet wd-icon-item">&#x21C5;</span>
                             <span className="wd-count">
-                    {post.retweets}
+                    {post.retuits}
                 </span></a>
 
                         <a href="#" onClick={()=> incLikeTuitHandler(post)}>
