@@ -11,6 +11,7 @@ const TuitList = () =>{
         dispatch(findTuitsThunk());
     },[])
     return(
+
         <>
             <ul className="list-group">
                 {
